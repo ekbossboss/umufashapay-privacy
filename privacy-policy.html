@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy — UmufashaPay</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f9fafb;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+    header {
+      background: #1a1a2e;
+      color: white;
+      padding: 24px 32px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    header .logo {
+      width: 44px;
+      height: 44px;
+      background: #25D366;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 18px;
+      color: white;
+    }
+    header h1 { font-size: 22px; font-weight: 700; }
+    header p { font-size: 13px; opacity: 0.7; margin-top: 2px; }
+    .container {
+      max-width: 780px;
+      margin: 48px auto;
+      padding: 0 24px 80px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 48px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    }
+    .last-updated {
+      font-size: 13px;
+      color: #6b7280;
+      margin-bottom: 32px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin: 36px 0 12px;
+    }
+    h2:first-of-type { margin-top: 0; }
+    p { color: #374151; margin-bottom: 12px; font-size: 15px; }
+    ul {
+      margin: 8px 0 16px 20px;
+      color: #374151;
+      font-size: 15px;
+    }
+    ul li { margin-bottom: 6px; }
+    .highlight {
+      background: #f0fdf4;
+      border-left: 4px solid #25D366;
+      padding: 16px 20px;
+      border-radius: 0 8px 8px 0;
+      margin: 20px 0;
+      font-size: 15px;
+      color: #166534;
+    }
+    .contact-box {
+      background: #f8fafc;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      padding: 24px;
+      margin-top: 16px;
+    }
+    .contact-box p { margin-bottom: 4px; }
+    footer {
+      text-align: center;
+      padding: 32px;
+      font-size: 13px;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">U</div>
+  <div>
+    <h1>UmufashaPay</h1>
+    <p>WhatsApp Payment Service — Rwanda</p>
+  </div>
+</header>
+
+<div class="container">
+  <div class="card">
+
+    <p class="last-updated">Last updated: July 22, 2026</p>
+
+    <h2>1. Introduction</h2>
+    <p>UmufashaPay ("we", "our", or "us") operates a WhatsApp-based payment service that enables users in Rwanda to send and receive money across banks and mobile money providers through WhatsApp. This Privacy Policy explains how we collect, use, store, and protect your personal information when you use our service.</p>
+    <p>By using UmufashaPay, you agree to the collection and use of information in accordance with this policy.</p>
+
+    <h2>2. Information We Collect</h2>
+    <p>We collect the following information when you register and use UmufashaPay:</p>
+    <ul>
+      <li><strong>Identity information:</strong> Full name and Rwanda National ID number (Indangamuntu) for KYC verification</li>
+      <li><strong>Contact information:</strong> WhatsApp phone number used to access the service</li>
+      <li><strong>Financial information:</strong> Linked bank account numbers and mobile money account numbers</li>
+      <li><strong>Transaction data:</strong> Payment amounts, recipients, timestamps, and transaction references</li>
+      <li><strong>Usage data:</strong> Session activity and interaction logs within the WhatsApp bot</li>
+    </ul>
+
+    <h2>3. How We Use Your Information</h2>
+    <p>We use your information for the following purposes:</p>
+    <ul>
+      <li>To verify your identity and comply with Know Your Customer (KYC) requirements</li>
+      <li>To process payment transactions on your behalf</li>
+      <li>To send transaction confirmations and receipts via WhatsApp</li>
+      <li>To detect and prevent fraud and unauthorized access</li>
+      <li>To comply with regulatory requirements from the National Bank of Rwanda (BNR)</li>
+      <li>To improve our service and resolve technical issues</li>
+    </ul>
+
+    <div class="highlight">
+      We never sell your personal data to third parties. Your financial information is used solely to process your transactions.
+    </div>
+
+    <h2>4. Data Sharing</h2>
+    <p>We share your information only in the following circumstances:</p>
+    <ul>
+      <li><strong>Payment providers:</strong> Your account details are shared with banks and mobile money providers (MTN MoMo, Airtel Money, and licensed banks in Rwanda) solely to process your transactions</li>
+      <li><strong>Regulatory authorities:</strong> We may share data with the National Bank of Rwanda or other regulatory bodies as required by law</li>
+      <li><strong>Meta (WhatsApp):</strong> Messages sent through our WhatsApp bot are processed through Meta's WhatsApp Business API in accordance with Meta's Privacy Policy</li>
+      <li><strong>Service providers:</strong> We use secure third-party infrastructure providers (database and session management) who are contractually bound to protect your data</li>
+    </ul>
+
+    <h2>5. Data Security</h2>
+    <p>We take data security seriously and implement the following measures:</p>
+    <ul>
+      <li>All PINs are encrypted using industry-standard bcrypt hashing — we never store plain-text PINs</li>
+      <li>All data is transmitted over encrypted HTTPS connections</li>
+      <li>Account linking requires OTP verification to confirm ownership</li>
+      <li>Sessions expire automatically after 10 minutes of inactivity</li>
+      <li>Failed PIN attempts trigger automatic account lockout</li>
+    </ul>
+
+    <h2>6. Data Retention</h2>
+    <p>We retain your personal data for as long as your account is active. Transaction records are retained for a minimum of 7 years in compliance with financial regulations in Rwanda. If you request account deletion, we will remove your personal data within 30 days, except where retention is required by law.</p>
+
+    <h2>7. Your Rights</h2>
+    <p>You have the following rights regarding your personal data:</p>
+    <ul>
+      <li><strong>Access:</strong> Request a copy of the data we hold about you</li>
+      <li><strong>Correction:</strong> Request correction of inaccurate information</li>
+      <li><strong>Deletion:</strong> Request deletion of your account and personal data</li>
+      <li><strong>Portability:</strong> Request your transaction history in a portable format</li>
+    </ul>
+    <p>To exercise any of these rights, contact us using the details below.</p>
+
+    <h2>8. Cookies and Tracking</h2>
+    <p>UmufashaPay operates entirely through WhatsApp and does not use cookies or web tracking technologies. Our service does not have a website frontend that tracks your browsing behavior.</p>
+
+    <h2>9. Children's Privacy</h2>
+    <p>UmufashaPay is not intended for use by persons under the age of 18. We do not knowingly collect personal information from minors. If you believe a minor has registered with our service, please contact us immediately.</p>
+
+    <h2>10. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. We will notify registered users of any significant changes via WhatsApp message. The date at the top of this page reflects when the policy was last updated.</p>
+
+    <h2>11. Regulatory Compliance</h2>
+    <p>UmufashaPay operates in compliance with the laws and regulations of the Republic of Rwanda, including guidelines issued by the National Bank of Rwanda (BNR) regarding electronic payment services and data protection.</p>
+
+    <h2>12. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy or how we handle your data, please contact us:</p>
+    <div class="contact-box">
+      <p><strong>UmufashaPay</strong></p>
+      <p>Kigali, Rwanda</p>
+      <p>Email: privacy@umufashapay.rw</p>
+      <p>WhatsApp: Available through our service</p>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  &copy; 2026 UmufashaPay. All rights reserved. | Kigali, Rwanda
+</footer>
+
+</body>
+</html>
